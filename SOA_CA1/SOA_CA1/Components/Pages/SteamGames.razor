@@ -1,5 +1,6 @@
 ﻿<!-- Matthew Riddell SOA CA1 - D00245674 -->
 <!-- Steam Games Page -->
+@using SOA_CA1.Services
 @page "/steam-games"
 
 <PageTitle>Steam Games</PageTitle>
@@ -25,5 +26,13 @@ else
 }
 
 @code {
+    private List<SteamGame> games = new();
+
+    [Inject] private SteamGameService SteamService { get; set; }
+
+    protected override void OnInitialized()
+    {
+        games = SteamService.GetAllSteamGames();
+    }
     
 }

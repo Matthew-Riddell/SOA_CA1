@@ -1,3 +1,6 @@
+// Matthew Riddell SOA CA1 - D00245674
+// Main Program class
+
 using SOA_CA1.Components;
 using SOA_CA1.Services;
 
@@ -13,6 +16,7 @@ namespace SOA_CA1
             builder.Services.AddRazorComponents()
                 .AddInteractiveServerComponents();
 
+            // Steam Game Service
             builder.Services.AddSingleton<SteamGameService>();
 
             var app = builder.Build();
