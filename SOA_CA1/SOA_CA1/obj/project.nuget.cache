@@ -1,8 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "1kb86LqubYQ=",
+  "dgSpecHash": "M7K4IlRVMaI=",
   "success": true,
   "projectFilePath": "C:\\Users\\Matty\\Documents\\College Notes & Assignments\\Year 4\\Service Orientated Architecture\\SOA_CA1\\SOA_CA1\\SOA_CA1\\SOA_CA1.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\Matty\\.nuget\\packages\\restsharp\\112.1.0\\restsharp.112.1.0.nupkg.sha512"
+  ],
   "logs": []
 }

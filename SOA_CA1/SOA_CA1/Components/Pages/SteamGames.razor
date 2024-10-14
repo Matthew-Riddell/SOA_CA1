@@ -1,0 +1,29 @@
+﻿<!-- Matthew Riddell SOA CA1 - D00245674 -->
+<!-- Steam Games Page -->
+@page "/steam-games"
+
+<PageTitle>Steam Games</PageTitle>
+
+<h3>List of Steam Games</h3>
+
+@if (games == null)
+{
+    <p>Loading games...</p>
+}
+else if (games.Count == 0)
+{
+    <p>No games found.</p>
+}
+else
+{
+    <ul>
+        @foreach (var game in games)
+        {
+            <li>@game.Name (App ID: @game.Appid)</li>
+        }
+    </ul>
+}
+
+@code {
+    
+}

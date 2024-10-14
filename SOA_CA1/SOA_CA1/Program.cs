@@ -1,4 +1,5 @@
 using SOA_CA1.Components;
+using SOA_CA1.Services;
 
 namespace SOA_CA1
 {
@@ -11,6 +12,8 @@ namespace SOA_CA1
             // Add services to the container.
             builder.Services.AddRazorComponents()
                 .AddInteractiveServerComponents();
+
+            builder.Services.AddSingleton<SteamGameService>();
 
             var app = builder.Build();
 
