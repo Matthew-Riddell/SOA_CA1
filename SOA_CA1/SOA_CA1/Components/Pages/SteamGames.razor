@@ -30,9 +30,9 @@ else
 
     [Inject] private SteamGameService SteamService { get; set; }
 
-    protected override void OnInitialized()
+    protected override async Task OnInitializedAsync()
     {
-        games = SteamService.GetAllSteamGames();
+        games = await SteamService.GetAllSteamGamesAsync();
     }
     
 }
