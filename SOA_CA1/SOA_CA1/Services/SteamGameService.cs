@@ -49,7 +49,7 @@ namespace SOA_CA1.Services
             {
                 var options = new JsonSerializerOptions { PropertyNameCaseInsensitive = true };
                 var appListResponse = JsonSerializer.Deserialize<SteamAppListResponse>(response.Content, options);
-                return appListResponse?.Applist?.Apps ?? new List<SteamGame>();
+                return appListResponse?.Response?.Games ?? new List<SteamGame>();
             }
 
             return new List<SteamGame>();
@@ -58,11 +58,11 @@ namespace SOA_CA1.Services
 
     public class SteamAppListResponse
     {
-        public SteamAppList Applist { get; set; }
+        public Response Response { get; set; }
     }
 
-    public class SteamAppList
+    public class Response
     {
-        public List<SteamGame> Apps { get; set; }
+        public List<SteamGame> Games { get; set; }
     }
 }
