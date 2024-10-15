@@ -47,6 +47,8 @@ namespace SOA_CA1.Services
             var response = await client.ExecuteAsync(request);
             if (response.IsSuccessful && response.Content != null)
             {
+                // Console.WriteLine(response.Content); // test JSON output
+
                 var options = new JsonSerializerOptions { PropertyNameCaseInsensitive = true };
                 var appListResponse = JsonSerializer.Deserialize<SteamAppListResponse>(response.Content, options);
                 return appListResponse?.Response?.Games ?? new List<SteamGame>();
