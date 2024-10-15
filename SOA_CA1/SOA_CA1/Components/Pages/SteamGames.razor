@@ -22,9 +22,8 @@ else
         {
             <li>
                 <img src="@($"https://media.steampowered.com/steamcommunity/public/images/apps/{game.Appid}/{game.IconUrl}.jpg")"
-                     alt="@game.Name Icon"
                      width="32" height="32" /><span>@game.Name</span>
-                <span> - Hours Played: @(game.PlaytimeForever / 60.0).ToString("F1")</span>
+                <span> - Hours Played: @((game.PlaytimeForever / 60.0).ToString("F1"))</span>
             </li>
         }
     </ul>
