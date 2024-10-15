@@ -28,6 +28,8 @@ else
 @code {
     private List<SteamGame> games = new();
 
+    // learned to inject in razor from:
+    // https://blazor-university.com/dependency-injection/injecting-dependencies-into-blazor-components/
     [Inject] private SteamGameService SteamService { get; set; }
 
     protected override async Task OnInitializedAsync()

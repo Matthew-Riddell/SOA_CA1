@@ -1,5 +1,6 @@
 ﻿// Matthew Riddell SOA CA1 - D00245674
 // Service for handling Steam Games
+// this is a test class for testing the output from the API as I develop the actual service
 
 using RestSharp;
 using System.Text.Json;
@@ -9,7 +10,7 @@ namespace SOA_CA1.Services
 {
     public class SteamGameService
     {
-        private static readonly string GetAppList_URL = "https://api.steampowered.com/IPlayerService/GetOwnedGames/v0001/?key=E624A75E8BF594E01DA1BF4E610ACBE4&steamid=evermatt&format=json"; // steam games
+        private static readonly string GetAppList_URL = "https://api.steampowered.com/ISteamApps/GetAppList/v0002/?key=STEAMKEY&format=json"; // steam games
 
         // needed to use async and await for the data to load
         // learned async and await from
