@@ -11,11 +11,15 @@ namespace SOA_CA1
     {
         public int Appid { get; set; }
         public string Name { get; set; }
+        public int PlaytimeForever { get; set; }
+        public string IconUrl { get; set; }
 
-        public SteamGame(int appid, string name)
+        public SteamGame(int appid, string name, int playtime_forever, string img_icon_url)
         {
             Appid = appid;
             Name = name;
+            PlaytimeForever = playtime_forever;
+            IconUrl = img_icon_url;
         }
 
         public SteamGame() { }
