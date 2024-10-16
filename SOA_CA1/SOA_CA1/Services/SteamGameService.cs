@@ -64,10 +64,23 @@ namespace SOA_CA1.Services
         }
 
         // Display player count of each game
-        //public async Task<int> GetCurrentPlayerCountAsync(int appId) 
-        //{ 
+        public async Task<int> GetCurrentPlayerCountAsync(int appId)
+        {
+            var client = new RestClient(GetNumberOfCurrentPlayers_URL);
+            var request = new RestRequest();
+            request.AddParameter("appid", appId);  
 
-        //}
+            var response = await client.ExecuteAsync(request);
+            if (response.IsSuccessful && response.Content != null)
+            {
+                // Console.WriteLine(response.Content); // test JSON output
+
+                var options = new JsonSerializerOptions { PropertyNameCaseInsensitive = true };
+                var playerCountResponse = JsonSerializer.Deserialize<PlayerCountResponse>(response.Content, options);
+                return playerCountResponse?.Response?.PlayerCount ?? 0;
+            }
+            return 0;  
+        }
     }
 
     // Classes for deserializing the JSON data

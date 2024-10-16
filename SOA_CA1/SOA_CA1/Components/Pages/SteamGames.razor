@@ -23,7 +23,8 @@ else
             <li>
                 <img src="@($"https://media.steampowered.com/steamcommunity/public/images/apps/{game.Appid}/{game.IconUrl}.jpg")"
                      width="32" height="32" /><span>@game.Name</span>
-                <span> - Hours Played: @((game.PlaytimeForever / 60.0).ToString("F1"))</span>
+                <span> - Hours Played: @((game.PlaytimeForever / 60.0).ToString("F1"))</span> <!-- Game Data -->
+               <!-- <span> - Current Players: @await GetPlayerCountAsync(game.Appid)</span> --> <!-- Player Count -->
             </li>
         }
     </ul>
@@ -36,9 +37,16 @@ else
     // https://blazor-university.com/dependency-injection/injecting-dependencies-into-blazor-components/
     [Inject] private SteamGameService SteamService { get; set; }
 
+    // Steam Game Data
     protected override async Task OnInitializedAsync()
     {
         games = await SteamService.GetAllSteamGamesAsync();
+    }
+
+    // Steam Player Counts
+    private async Task<int> GetPlayerCountAsync(int appId)
+    {
+        return await SteamService.GetCurrentPlayerCountAsync(appId);
     }
     
 }

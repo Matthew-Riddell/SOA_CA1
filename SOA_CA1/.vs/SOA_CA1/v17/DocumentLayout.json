@@ -3,6 +3,10 @@
   "WorkspaceRootPath": "C:\\Users\\Matty\\Documents\\College Notes \u0026 Assignments\\Year 4\\Service Orientated Architecture\\SOA_CA1\\SOA_CA1\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{D1EFE673-2E15-4B10-B85A-65CC9735EB94}|SOA_CA1\\SOA_CA1.csproj|c:\\users\\matty\\documents\\college notes \u0026 assignments\\year 4\\service orientated architecture\\soa_ca1\\soa_ca1\\soa_ca1\\components\\pages\\steamgames.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{D1EFE673-2E15-4B10-B85A-65CC9735EB94}|SOA_CA1\\SOA_CA1.csproj|solutionrelative:soa_ca1\\components\\pages\\steamgames.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{D1EFE673-2E15-4B10-B85A-65CC9735EB94}|SOA_CA1\\SOA_CA1.csproj|c:\\users\\matty\\documents\\college notes \u0026 assignments\\year 4\\service orientated architecture\\soa_ca1\\soa_ca1\\soa_ca1\\steamgame.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{D1EFE673-2E15-4B10-B85A-65CC9735EB94}|SOA_CA1\\SOA_CA1.csproj|solutionrelative:soa_ca1\\steamgame.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -11,8 +15,8 @@
       "RelativeMoniker": "D:0:0:{D1EFE673-2E15-4B10-B85A-65CC9735EB94}|SOA_CA1\\SOA_CA1.csproj|solutionrelative:soa_ca1\\services\\steamgameservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D1EFE673-2E15-4B10-B85A-65CC9735EB94}|SOA_CA1\\SOA_CA1.csproj|c:\\users\\matty\\documents\\college notes \u0026 assignments\\year 4\\service orientated architecture\\soa_ca1\\soa_ca1\\soa_ca1\\components\\pages\\steamgames.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{D1EFE673-2E15-4B10-B85A-65CC9735EB94}|SOA_CA1\\SOA_CA1.csproj|solutionrelative:soa_ca1\\components\\pages\\steamgames.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{D1EFE673-2E15-4B10-B85A-65CC9735EB94}|SOA_CA1\\SOA_CA1.csproj|c:\\users\\matty\\documents\\college notes \u0026 assignments\\year 4\\service orientated architecture\\soa_ca1\\soa_ca1\\soa_ca1\\components\\layout\\navmenu.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{D1EFE673-2E15-4B10-B85A-65CC9735EB94}|SOA_CA1\\SOA_CA1.csproj|solutionrelative:soa_ca1\\components\\layout\\navmenu.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     }
   ],
   "DocumentGroupContainers": [
@@ -22,43 +26,55 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
+              "Title": "NavMenu.razor",
+              "DocumentMoniker": "C:\\Users\\Matty\\Documents\\College Notes \u0026 Assignments\\Year 4\\Service Orientated Architecture\\SOA_CA1\\SOA_CA1\\SOA_CA1\\Components\\Layout\\NavMenu.razor",
+              "RelativeDocumentMoniker": "SOA_CA1\\Components\\Layout\\NavMenu.razor",
+              "ToolTip": "C:\\Users\\Matty\\Documents\\College Notes \u0026 Assignments\\Year 4\\Service Orientated Architecture\\SOA_CA1\\SOA_CA1\\SOA_CA1\\Components\\Layout\\NavMenu.razor",
+              "RelativeToolTip": "SOA_CA1\\Components\\Layout\\NavMenu.razor",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAIwBYAAABbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-15T21:45:50.194Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
               "Title": "SteamGames.razor",
               "DocumentMoniker": "C:\\Users\\Matty\\Documents\\College Notes \u0026 Assignments\\Year 4\\Service Orientated Architecture\\SOA_CA1\\SOA_CA1\\SOA_CA1\\Components\\Pages\\SteamGames.razor",
               "RelativeDocumentMoniker": "SOA_CA1\\Components\\Pages\\SteamGames.razor",
               "ToolTip": "C:\\Users\\Matty\\Documents\\College Notes \u0026 Assignments\\Year 4\\Service Orientated Architecture\\SOA_CA1\\SOA_CA1\\SOA_CA1\\Components\\Pages\\SteamGames.razor",
               "RelativeToolTip": "SOA_CA1\\Components\\Pages\\SteamGames.razor",
-              "ViewState": "AgIAAA8AAAAAAAAAAAAAABcAAAB5AAAAAAAAAA==",
+              "ViewState": "AgIAABIAAAAAAAAAAAAAAC0AAAAaAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2024-10-14T11:05:37.384Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "SteamGameService.cs",
               "DocumentMoniker": "C:\\Users\\Matty\\Documents\\College Notes \u0026 Assignments\\Year 4\\Service Orientated Architecture\\SOA_CA1\\SOA_CA1\\SOA_CA1\\Services\\SteamGameService.cs",
               "RelativeDocumentMoniker": "SOA_CA1\\Services\\SteamGameService.cs",
               "ToolTip": "C:\\Users\\Matty\\Documents\\College Notes \u0026 Assignments\\Year 4\\Service Orientated Architecture\\SOA_CA1\\SOA_CA1\\SOA_CA1\\Services\\SteamGameService.cs",
               "RelativeToolTip": "SOA_CA1\\Services\\SteamGameService.cs",
-              "ViewState": "AgIAACoAAAAAAAAAAAAAADEAAABIAAAAAAAAAA==",
+              "ViewState": "AgIAAFMAAAAAAAAAAAAAAEsAAABLAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-10-15T10:55:12.32Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "SteamGame.cs",
               "DocumentMoniker": "C:\\Users\\Matty\\Documents\\College Notes \u0026 Assignments\\Year 4\\Service Orientated Architecture\\SOA_CA1\\SOA_CA1\\SOA_CA1\\SteamGame.cs",
               "RelativeDocumentMoniker": "SOA_CA1\\SteamGame.cs",
               "ToolTip": "C:\\Users\\Matty\\Documents\\College Notes \u0026 Assignments\\Year 4\\Service Orientated Architecture\\SOA_CA1\\SOA_CA1\\SOA_CA1\\SteamGame.cs",
               "RelativeToolTip": "SOA_CA1\\SteamGame.cs",
-              "ViewState": "AgIAABUAAAAAAAAAAAAswBoAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAB8AAAAAAAAAAAAiwBoAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-10-14T11:14:01.621Z",
               "EditorCaption": ""
