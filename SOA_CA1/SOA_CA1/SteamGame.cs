@@ -25,6 +25,10 @@ namespace SOA_CA1
         [JsonPropertyName("img_icon_url")] 
         public string IconUrl { get; set; }
 
+
+
+        public int CurrentPlayerCount { get; set; }
+
         public SteamGame(int appid, string name, double playtime_forever, string img_icon_url)
         {
             Appid = appid;
