@@ -19,6 +19,9 @@ namespace SOA_CA1
             // Steam Game Service
             builder.Services.AddSingleton<SteamGameService>();
 
+            // OMDb Movie Service
+            builder.Services.AddScoped<OmdbMovieService>();
+
             var app = builder.Build();
 
             // Configure the HTTP request pipeline.
