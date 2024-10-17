@@ -1,4 +1,7 @@
-﻿using RestSharp;
+﻿// Matthew Riddell SOA CA1 - D00245674
+// Service for handling OMDb Movies
+
+using RestSharp;
 using System.Text.Json;
 using System.Threading.Tasks;
 using System.Collections.Generic;

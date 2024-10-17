@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("SOA_CA1")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+434a3be1ea0995d7fe643929d5beef85d8b0c1e5")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+e31078859baac99eb9042d859a7038d88fabdd5b")]
 [assembly: System.Reflection.AssemblyProductAttribute("SOA_CA1")]
 [assembly: System.Reflection.AssemblyTitleAttribute("SOA_CA1")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

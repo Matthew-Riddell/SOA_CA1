@@ -1,4 +1,7 @@
-﻿namespace SOA_CA1
+﻿// Matthew Riddell SOA CA1 - D00245674
+// Movie object class
+
+namespace SOA_CA1
 {
     public class Movie
     {
