@@ -42,6 +42,10 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xQYWdlc1xTdGVhbUdhbWVzLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
+[C:/Users/Matty/Documents/College Notes & Assignments/Year 4/Service Orientated Architecture/SOA_CA1/SOA_CA1/SOA_CA1/Components/Pages/UploadMovie.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xQYWdlc1xVcGxvYWRNb3ZpZS5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/Matty/Documents/College Notes & Assignments/Year 4/Service Orientated Architecture/SOA_CA1/SOA_CA1/SOA_CA1/Components/Pages/Weather.razor]
 build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xQYWdlc1xXZWF0aGVyLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 

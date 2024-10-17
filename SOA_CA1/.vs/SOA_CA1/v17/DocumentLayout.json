@@ -3,8 +3,24 @@
   "WorkspaceRootPath": "C:\\Users\\Matty\\Documents\\College Notes \u0026 Assignments\\Year 4\\Service Orientated Architecture\\SOA_CA1\\SOA_CA1\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{D1EFE673-2E15-4B10-B85A-65CC9735EB94}|SOA_CA1\\SOA_CA1.csproj|c:\\users\\matty\\documents\\college notes \u0026 assignments\\year 4\\service orientated architecture\\soa_ca1\\soa_ca1\\soa_ca1\\services\\apiservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D1EFE673-2E15-4B10-B85A-65CC9735EB94}|SOA_CA1\\SOA_CA1.csproj|solutionrelative:soa_ca1\\services\\apiservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{D1EFE673-2E15-4B10-B85A-65CC9735EB94}|SOA_CA1\\SOA_CA1.csproj|c:\\users\\matty\\documents\\college notes \u0026 assignments\\year 4\\service orientated architecture\\soa_ca1\\soa_ca1\\soa_ca1\\movie.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D1EFE673-2E15-4B10-B85A-65CC9735EB94}|SOA_CA1\\SOA_CA1.csproj|solutionrelative:soa_ca1\\movie.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D1EFE673-2E15-4B10-B85A-65CC9735EB94}|SOA_CA1\\SOA_CA1.csproj|c:\\users\\matty\\documents\\college notes \u0026 assignments\\year 4\\service orientated architecture\\soa_ca1\\soa_ca1\\soa_ca1\\steamgame.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D1EFE673-2E15-4B10-B85A-65CC9735EB94}|SOA_CA1\\SOA_CA1.csproj|solutionrelative:soa_ca1\\steamgame.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D1EFE673-2E15-4B10-B85A-65CC9735EB94}|SOA_CA1\\SOA_CA1.csproj|c:\\users\\matty\\documents\\college notes \u0026 assignments\\year 4\\service orientated architecture\\soa_ca1\\soa_ca1\\soa_ca1\\components\\pages\\uploadmovie.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{D1EFE673-2E15-4B10-B85A-65CC9735EB94}|SOA_CA1\\SOA_CA1.csproj|solutionrelative:soa_ca1\\components\\pages\\uploadmovie.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D1EFE673-2E15-4B10-B85A-65CC9735EB94}|SOA_CA1\\SOA_CA1.csproj|c:\\users\\matty\\documents\\college notes \u0026 assignments\\year 4\\service orientated architecture\\soa_ca1\\soa_ca1\\soa_ca1\\components\\pages\\moviesearch.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{D1EFE673-2E15-4B10-B85A-65CC9735EB94}|SOA_CA1\\SOA_CA1.csproj|solutionrelative:soa_ca1\\components\\pages\\moviesearch.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D1EFE673-2E15-4B10-B85A-65CC9735EB94}|SOA_CA1\\SOA_CA1.csproj|c:\\users\\matty\\documents\\college notes \u0026 assignments\\year 4\\service orientated architecture\\soa_ca1\\soa_ca1\\soa_ca1\\components\\layout\\navmenu.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{D1EFE673-2E15-4B10-B85A-65CC9735EB94}|SOA_CA1\\SOA_CA1.csproj|solutionrelative:soa_ca1\\components\\layout\\navmenu.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{D1EFE673-2E15-4B10-B85A-65CC9735EB94}|SOA_CA1\\SOA_CA1.csproj|c:\\users\\matty\\documents\\college notes \u0026 assignments\\year 4\\service orientated architecture\\soa_ca1\\soa_ca1\\soa_ca1\\services\\steamgameservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -15,20 +31,8 @@
       "RelativeMoniker": "D:0:0:{D1EFE673-2E15-4B10-B85A-65CC9735EB94}|SOA_CA1\\SOA_CA1.csproj|solutionrelative:soa_ca1\\services\\omdbmovieservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D1EFE673-2E15-4B10-B85A-65CC9735EB94}|SOA_CA1\\SOA_CA1.csproj|c:\\users\\matty\\documents\\college notes \u0026 assignments\\year 4\\service orientated architecture\\soa_ca1\\soa_ca1\\soa_ca1\\steamgame.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D1EFE673-2E15-4B10-B85A-65CC9735EB94}|SOA_CA1\\SOA_CA1.csproj|solutionrelative:soa_ca1\\steamgame.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{D1EFE673-2E15-4B10-B85A-65CC9735EB94}|SOA_CA1\\SOA_CA1.csproj|c:\\users\\matty\\documents\\college notes \u0026 assignments\\year 4\\service orientated architecture\\soa_ca1\\soa_ca1\\soa_ca1\\components\\pages\\steamgames.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{D1EFE673-2E15-4B10-B85A-65CC9735EB94}|SOA_CA1\\SOA_CA1.csproj|solutionrelative:soa_ca1\\components\\pages\\steamgames.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D1EFE673-2E15-4B10-B85A-65CC9735EB94}|SOA_CA1\\SOA_CA1.csproj|c:\\users\\matty\\documents\\college notes \u0026 assignments\\year 4\\service orientated architecture\\soa_ca1\\soa_ca1\\soa_ca1\\movie.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D1EFE673-2E15-4B10-B85A-65CC9735EB94}|SOA_CA1\\SOA_CA1.csproj|solutionrelative:soa_ca1\\movie.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D1EFE673-2E15-4B10-B85A-65CC9735EB94}|SOA_CA1\\SOA_CA1.csproj|c:\\users\\matty\\documents\\college notes \u0026 assignments\\year 4\\service orientated architecture\\soa_ca1\\soa_ca1\\soa_ca1\\components\\layout\\navmenu.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{D1EFE673-2E15-4B10-B85A-65CC9735EB94}|SOA_CA1\\SOA_CA1.csproj|solutionrelative:soa_ca1\\components\\layout\\navmenu.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     }
   ],
   "DocumentGroupContainers": [
@@ -38,11 +42,24 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 2,
+              "Title": "UploadMovie.razor",
+              "DocumentMoniker": "C:\\Users\\Matty\\Documents\\College Notes \u0026 Assignments\\Year 4\\Service Orientated Architecture\\SOA_CA1\\SOA_CA1\\SOA_CA1\\Components\\Pages\\UploadMovie.razor",
+              "RelativeDocumentMoniker": "SOA_CA1\\Components\\Pages\\UploadMovie.razor",
+              "ToolTip": "C:\\Users\\Matty\\Documents\\College Notes \u0026 Assignments\\Year 4\\Service Orientated Architecture\\SOA_CA1\\SOA_CA1\\SOA_CA1\\Components\\Pages\\UploadMovie.razor",
+              "RelativeToolTip": "SOA_CA1\\Components\\Pages\\UploadMovie.razor",
+              "ViewState": "AgIAAB4AAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-17T18:53:58.166Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
               "Title": "SteamGames.razor",
               "DocumentMoniker": "C:\\Users\\Matty\\Documents\\College Notes \u0026 Assignments\\Year 4\\Service Orientated Architecture\\SOA_CA1\\SOA_CA1\\SOA_CA1\\Components\\Pages\\SteamGames.razor",
               "RelativeDocumentMoniker": "SOA_CA1\\Components\\Pages\\SteamGames.razor",
@@ -55,46 +72,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "SteamGame.cs",
-              "DocumentMoniker": "C:\\Users\\Matty\\Documents\\College Notes \u0026 Assignments\\Year 4\\Service Orientated Architecture\\SOA_CA1\\SOA_CA1\\SOA_CA1\\SteamGame.cs",
-              "RelativeDocumentMoniker": "SOA_CA1\\SteamGame.cs",
-              "ToolTip": "C:\\Users\\Matty\\Documents\\College Notes \u0026 Assignments\\Year 4\\Service Orientated Architecture\\SOA_CA1\\SOA_CA1\\SOA_CA1\\SteamGame.cs",
-              "RelativeToolTip": "SOA_CA1\\SteamGame.cs",
-              "ViewState": "AgIAABEAAAAAAAAAAADwvwoAAAAaAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-17T17:57:49.948Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 0,
               "Title": "Movie.cs",
               "DocumentMoniker": "C:\\Users\\Matty\\Documents\\College Notes \u0026 Assignments\\Year 4\\Service Orientated Architecture\\SOA_CA1\\SOA_CA1\\SOA_CA1\\Movie.cs",
               "RelativeDocumentMoniker": "SOA_CA1\\Movie.cs",
               "ToolTip": "C:\\Users\\Matty\\Documents\\College Notes \u0026 Assignments\\Year 4\\Service Orientated Architecture\\SOA_CA1\\SOA_CA1\\SOA_CA1\\Movie.cs",
               "RelativeToolTip": "SOA_CA1\\Movie.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAABEAAAAAAAAAAAAQwBgAAAAtAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-10-17T17:57:46.07Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "ApiService.cs",
-              "DocumentMoniker": "C:\\Users\\Matty\\Documents\\College Notes \u0026 Assignments\\Year 4\\Service Orientated Architecture\\SOA_CA1\\SOA_CA1\\SOA_CA1\\Services\\ApiService.cs",
-              "RelativeDocumentMoniker": "SOA_CA1\\Services\\ApiService.cs",
-              "ToolTip": "C:\\Users\\Matty\\Documents\\College Notes \u0026 Assignments\\Year 4\\Service Orientated Architecture\\SOA_CA1\\SOA_CA1\\SOA_CA1\\Services\\ApiService.cs",
-              "RelativeToolTip": "SOA_CA1\\Services\\ApiService.cs",
-              "ViewState": "AgIAACUAAAAAAAAAAAAAABQAAAA4AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-17T16:26:29.832Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 5,
               "Title": "SteamGameService.cs",
               "DocumentMoniker": "C:\\Users\\Matty\\Documents\\College Notes \u0026 Assignments\\Year 4\\Service Orientated Architecture\\SOA_CA1\\SOA_CA1\\SOA_CA1\\Services\\SteamGameService.cs",
               "RelativeDocumentMoniker": "SOA_CA1\\Services\\SteamGameService.cs",
@@ -107,7 +98,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 6,
               "Title": "OmdbMovieService.cs",
               "DocumentMoniker": "C:\\Users\\Matty\\Documents\\College Notes \u0026 Assignments\\Year 4\\Service Orientated Architecture\\SOA_CA1\\SOA_CA1\\SOA_CA1\\Services\\OmdbMovieService.cs",
               "RelativeDocumentMoniker": "SOA_CA1\\Services\\OmdbMovieService.cs",
@@ -120,13 +111,39 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 1,
+              "Title": "SteamGame.cs",
+              "DocumentMoniker": "C:\\Users\\Matty\\Documents\\College Notes \u0026 Assignments\\Year 4\\Service Orientated Architecture\\SOA_CA1\\SOA_CA1\\SOA_CA1\\SteamGame.cs",
+              "RelativeDocumentMoniker": "SOA_CA1\\SteamGame.cs",
+              "ToolTip": "C:\\Users\\Matty\\Documents\\College Notes \u0026 Assignments\\Year 4\\Service Orientated Architecture\\SOA_CA1\\SOA_CA1\\SOA_CA1\\SteamGame.cs",
+              "RelativeToolTip": "SOA_CA1\\SteamGame.cs",
+              "ViewState": "AgIAABcAAAAAAAAAAAAwwCMAAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-17T17:57:49.948Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "MovieSearch.razor",
+              "DocumentMoniker": "C:\\Users\\Matty\\Documents\\College Notes \u0026 Assignments\\Year 4\\Service Orientated Architecture\\SOA_CA1\\SOA_CA1\\SOA_CA1\\Components\\Pages\\MovieSearch.razor",
+              "RelativeDocumentMoniker": "SOA_CA1\\Components\\Pages\\MovieSearch.razor",
+              "ToolTip": "C:\\Users\\Matty\\Documents\\College Notes \u0026 Assignments\\Year 4\\Service Orientated Architecture\\SOA_CA1\\SOA_CA1\\SOA_CA1\\Components\\Pages\\MovieSearch.razor",
+              "RelativeToolTip": "SOA_CA1\\Components\\Pages\\MovieSearch.razor",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-17T18:55:18.789Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
               "Title": "NavMenu.razor",
               "DocumentMoniker": "C:\\Users\\Matty\\Documents\\College Notes \u0026 Assignments\\Year 4\\Service Orientated Architecture\\SOA_CA1\\SOA_CA1\\SOA_CA1\\Components\\Layout\\NavMenu.razor",
               "RelativeDocumentMoniker": "SOA_CA1\\Components\\Layout\\NavMenu.razor",
               "ToolTip": "C:\\Users\\Matty\\Documents\\College Notes \u0026 Assignments\\Year 4\\Service Orientated Architecture\\SOA_CA1\\SOA_CA1\\SOA_CA1\\Components\\Layout\\NavMenu.razor",
               "RelativeToolTip": "SOA_CA1\\Components\\Layout\\NavMenu.razor",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB4AAABYAAAAAAAAAA==",
+              "ViewState": "AgIAAB8AAAAAAAAAAAAAABYAAAAXAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2024-10-17T15:51:55.525Z",
               "EditorCaption": ""
