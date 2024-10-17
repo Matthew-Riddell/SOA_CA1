@@ -17,7 +17,7 @@ namespace SOA_CA1
                 .AddInteractiveServerComponents();
 
             // Steam Game Service
-            builder.Services.AddSingleton<SteamGameService>();
+            builder.Services.AddScoped<SteamGameService>();
 
             // OMDb Movie Service
             builder.Services.AddScoped<OmdbMovieService>();

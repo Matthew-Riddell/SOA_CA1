@@ -27,7 +27,7 @@ namespace SOA_CA1
 
 
 
-        public int CurrentPlayerCount { get; set; }
+        //public int CurrentPlayerCount { get; set; }
 
         public SteamGame(int appid, string name, double playtime_forever, string img_icon_url)
         {
