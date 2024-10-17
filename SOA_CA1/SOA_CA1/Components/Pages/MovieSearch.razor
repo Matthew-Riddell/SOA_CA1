@@ -18,9 +18,14 @@
         <p><strong>Plot:</strong> @movie.Plot</p>
         <p><strong>IMDB Rating:</strong> @movie.imdbRating</p>
 
+        <!-- check if there is a valid movie poster, display placeholder image for movies with a missing poster -->
         @if (!string.IsNullOrEmpty(movie.Poster))
         {
             <img src="@movie.Poster" alt="@movie.Title Poster" width="200" />
+        }
+        else
+        {
+            <img src="https://cdn.discordapp.com/emojis/1288532022071001162.webp" width="200" />
         }
     </div>
 }
