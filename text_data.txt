@@ -1,0 +1,16 @@
+[
+    {
+        "Title": "My New Movie",
+        "Released": "2010-07-16",
+        "Genre": "Action, Adventure, Sci-Fi",
+        "Director": "Christopher Nolan",
+        "Poster": "https://m.media-amazon.com/images/M/MV5BMjAxMzY3NjcxNF5BMl5BanBnXkFtZTcwNTI5OTM0Mw@@._V1_SX300.jpg"
+    },
+    {
+        "Title": "My Other Movie",
+        "Released": "1999-03-31",
+        "Genre": "Action, Sci-Fi",
+        "Director": "Lana Wachowski, Lilly Wachowski",
+        "Poster": "https://m.media-amazon.com/images/M/MV5BMjAxMzY3NjcxNF5BMl5BanBnXkFtZTcwNTI5OTM0Mw@@._V1_SX300.jpgg"
+    }
+]
