@@ -13,7 +13,7 @@ namespace SOA_CA1.Services
         
         // OMDb Films API
         protected override string ApiUrl => "https://www.omdbapi.com/";
-        protected override string ApiKey => "API KEY"; 
+        protected override string ApiKey => "6d918ec8"; 
 
 
         // Display movies by title

@@ -18,8 +18,8 @@ namespace SOA_CA1.Services
         // Steam Number of Current Players API
         private static readonly string GetNumberOfCurrentPlayers_URL = "https://api.steampowered.com/ISteamUserStats/GetNumberOfCurrentPlayers/v1/";
 
-        private readonly string _apiKey = "API KEY";
-        private readonly string _steamId = "STEAM ID";
+        private readonly string _apiKey = "E624A75E8BF594E01DA1BF4E610ACBE4";
+        private readonly string _steamId = "76561197960434622";
 
         // needed to use async and await for the data to load
         // learned async and await and using tasks from
