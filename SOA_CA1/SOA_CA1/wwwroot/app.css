@@ -12,14 +12,14 @@ a, .btn-link {
 }
 
 a:hover, .btn-link:hover {
-    color: #005499;
+    color: #770077;
     text-decoration: underline;
 }
 
 .btn-primary {
     color: #fff;
-    background-color: #1b6ec2;
-    border-color: #1861ac;
+    background-color: #770077;
+    border-color: #770077;
 }
 
 .btn:focus, .btn:active:focus, .btn-link.nav-link:focus, .form-control:focus, .form-check-input:focus {
@@ -34,7 +34,7 @@ a:hover, .btn-link:hover {
 
 h1, h2 {
     font-weight: 700;
-    color: #1b6ec2;
+    color: #770077;
 }
 
 .card {
