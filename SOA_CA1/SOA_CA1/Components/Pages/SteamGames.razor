@@ -5,39 +5,42 @@
 
 <PageTitle>Steam Games</PageTitle>
 
-<h3>List of Steam Games</h3>
+<div class="content">
+    <h1>List of Steam Games</h1>
 
-@if (games == null)
-{
-    <p>Loading games...</p>
-}
-else if (games.Count == 0)
-{
-    <p>No games found.</p>
-}
-else
-{
-    <ul>
-        @foreach (var game in games)
-        {
-            <li>
-                <!-- check if there is a valid icon, display placeholder icon for games with a missing icon -->
-                @if (!string.IsNullOrEmpty(game.IconUrl))
-                {
-                    <img src="@($"https://media.steampowered.com/steamcommunity/public/images/apps/{game.Appid}/{game.IconUrl}.jpg")"
-                         width="32" height="32" />
-                }
-                else
-                {
-                    <img src="https://cdn.discordapp.com/emojis/1288532022071001162.webp" width="32" height="32" />
-                }
-                <span>@game.Name</span>
-                <span> - Hours Played: @((game.PlaytimeForever / 60.0).ToString("F1"))</span> <!-- Game Data -->
-                <!-- <span> - Current Players: @game.CurrentPlayerCount</span> --> <!-- Player Count -->
-            </li>
-        }
-    </ul>
-}
+    @if (games == null)
+    {
+        <p>Loading games...</p>
+    }
+    else if (games.Count == 0)
+    {
+        <p>No games found.</p>
+    }
+    else
+    {
+        <ul class="game-list">
+            @foreach (var game in games)
+            {
+                <li class="game-item">
+                    <!-- check if there is a valid icon, display placeholder icon for games with a missing icon -->
+                    @if (!string.IsNullOrEmpty(game.IconUrl))
+                    {
+                        <img src="@($"https://media.steampowered.com/steamcommunity/public/images/apps/{game.Appid}/{game.IconUrl}.jpg")"
+                             class="game-icon" alt="@game.Name Icon" />
+                    }
+                    else
+                    {
+                        <img src="https://cdn.discordapp.com/emojis/1288532022071001162.webp" class="game-icon" alt="Placeholder Icon" />
+                    }
+                    <div class="game-info">
+                        <h2 class="game-title">@game.Name</h2>
+                        <p class="game-hours-played">Hours Played: @((game.PlaytimeForever / 60.0).ToString("F1"))</p>
+                    </div>
+                </li>
+            }
+        </ul>
+    }
+</div>
 
 @code {
     private List<SteamGame> games = new();
