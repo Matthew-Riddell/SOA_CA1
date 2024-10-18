@@ -14,7 +14,7 @@
 
     @if (movie != null)
     {
-        @if (!string.IsNullOrEmpty(movie.Title))
+        @if (!string.IsNullOrEmpty(movie.Title)) // if it returns null or empty, display an error message
         {
             <div class="card movie-details">
                 <div class="card-body">
